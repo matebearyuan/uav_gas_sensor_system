@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<package>
+  <name>trajectory_update_node</name>
+  <version>2.0.1</version>
+  <description>real time polynomial trajectory update driven by gas sensors for MAVs.</description>
+  <maintainer email="hyuan4@gmu.edu">Haiwen Yuan</maintainer>
+
+  <license>ASL 2.0</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <buildtool_depend>catkin_simple</buildtool_depend>
+  <build_depend>message_filters</build_depend>
+  <build_depend>mav_msgs</build_depend>
+  <build_depend>gazebo_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>message_filters</build_depend>
+  <build_depend>mav_trajectory_generation</build_depend>
+  <build_depend>mav_visualization</build_depend>
+  <build_depend>planning_msgs</build_depend>
+  <build_depend>cmake_modules</build_depend>
+
+  <run_depend>message_filters</run_depend>
+  <run_depend>mav_msgs</run_depend>
+  <run_depend>gazebo_msgs</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>message_filters</run_depend>
+  <run_depend>mav_trajectory_generation</run_depend>
+  <run_depend>mav_visualization</run_depend>
+  <run_depend>planning_msgs</run_depend>
+  <run_depend>cmake_modules</run_depend>
+
+</package>
